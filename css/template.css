@@ -1,0 +1,70 @@
+/* Style général */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Header */
+header {
+    background-color: #0078d7; /* Bleu moderne */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Bandeau de navigation */
+.bandeau {
+    display: flex;
+    justify-content: center;
+    background-color: #0056a3; /* Bleu plus foncé */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bandeau .boutton {
+    margin: 0 15px;
+}
+
+.bandeau .boutton a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bandeau .boutton a:hover {
+    background-color: white;
+    color: #0056a3;
+}
+
+/* Corps principal */
+body {
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
