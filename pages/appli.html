@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exécution Dynamique</title>
+</head>
+<body>
+    <h1>Génération de Graphique</h1>
+    <form action="/run" method="post" enctype="multipart/form-data">
+        <label for="file_elu">Fichier d'élution (CSV) :</label>
+        <input type="file" id="file_elu" name="file_elu" required><br><br>
+
+        <label for="file_wash">Fichier de lavage (CSV) :</label>
+        <input type="file" id="file_wash" name="file_wash" required><br><br>
+
+        <button type="submit">Exécuter</button>
+    </form>
+</body>
+</html>
