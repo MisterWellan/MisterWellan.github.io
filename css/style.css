@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion {
+    background-color: #0056a3;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    text-align: left;
+    border: none;
+    outline: none;
+    width: 100%;
+    transition: background-color 0.3s;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.accordion:hover {
+    background-color: #003d73;
+}
+
+.accordion:after {
+    content: '\002B'; 
+    float: right;
+    font-size: 20px;
+}
+
+.accordion.active:after {
+    content: '\2212'; 
+}
+
+.panel {
+    padding: 0 15px;
+    background-color: rgb(106, 104, 104);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/bg.tif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: white;
+}
